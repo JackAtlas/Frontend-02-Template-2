@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "runtimeArgs": ["--require", "@babel/register"],
+      "args": [],
+      "sourceMaps": true,
+      // "program": "${workspaceFolder}/html-parser/node_modules/.bin/mocha"
+      "program": "./node_modules/.bin/mocha"
+    }
+  ]
+}
